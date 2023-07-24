@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<div class="page">
+  <h1 class="page-title">
+    {% if page.title == 'Projects' %}{{ site.greetings }}
+    {% elsif page.title == 'Curriculum Vitae' %}{{ site.author.full_name }}
+    {% else %}{{ page.title }}
+    {% endif %}</h1>
+  {{ content }}
+</div>

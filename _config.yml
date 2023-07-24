@@ -1,0 +1,58 @@
+# github_token: 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
+
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+# Permalinks
+permalink:        /:year-:month-:day/:title/
+
+# Setup
+title:            'Gladys Cortes'
+tagline:          'Portfolio'
+description:      'Data Analyst'
+url:              https://gladscortes.github.io
+baseurl:          /portfolio
+greetings:         "Hi, I'm Gladys"
+
+author:
+  name:           'Gladys Cortes'
+  full_name:      'Gladys Grace G. Cortes'
+  address:        'Philippines (Remote)'
+
+# paginate:         5
+
+# Custom vars
+github:
+  repo:           https://github.com/gladscortes/portfolio
+
+# Social
+email: gladscortes@gmail.com
+github_username: gladscortes
+twitter_username: GladsData
+linkedin_username: gladys-cortes
+
+# Gems
+# plugins:
+# - jekyll-feed
+# - jekyll-seo-tag
+# - jekyll-email-protect
+# - jemoji
+# - jekyll-paginate
+
+# TOC
+# toc:
+#  min_level: 2 # default: 1
+#  max_level: 2 # default: 6
+
+# Icons
+fontawesome:
+  version: "6.4.0"
+  integrity: "sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8="
+
+# Google Analytics
+google_analytics: G-ZDQ4RFYZLX
+
+jekyll:
+  environment: production
+ 
